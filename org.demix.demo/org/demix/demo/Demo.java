@@ -18,7 +18,7 @@ public class Demo {
 
         Printer p = pf.getPrinter(printerType);
 
-        out.println("What you want to print?");
+        out.println("What do you want to print?");
         var message = scanner.nextLine();
         p.printMessage(message);
 
